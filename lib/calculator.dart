@@ -13,12 +13,19 @@ class _CalculatorState extends State<Calculator> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 31, 24, 23),
+    return const Scaffold(
+      backgroundColor: Color.fromARGB(255, 31, 24, 23),
       body: SafeArea(
         child: Column(
           children: [
-            Grid(),
+            Expanded(
+              child: Row(
+                children: [
+                  Text('result'),
+                ],
+              ),
+            ),
+            Grid()
           ],
         ),
       ),

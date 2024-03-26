@@ -13,7 +13,7 @@ class Button extends StatelessWidget {
         onPressed: buttonFunction,
         child: Text(
           insert,
-          style: const TextStyle(color: Colors.white, fontSize: 30),
+          style: const TextStyle(color: Colors.white, fontSize: 45),
         ),
       ),
     );

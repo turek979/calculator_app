@@ -15,6 +15,8 @@ class Grid extends StatelessWidget {
             Button('2', () {}),
             const SizedBox(width: 5),
             Button('3', () {}),
+            const SizedBox(width: 5),
+            Button('+', () {}),
           ],
         ),
         Row(
@@ -24,6 +26,8 @@ class Grid extends StatelessWidget {
             Button('5', () {}),
             const SizedBox(width: 5),
             Button('6', () {}),
+            const SizedBox(width: 5),
+            Button('-', () {}),
           ],
         ),
         Row(
@@ -33,6 +37,19 @@ class Grid extends StatelessWidget {
             Button('8', () {}),
             const SizedBox(width: 5),
             Button('9', () {}),
+            const SizedBox(width: 5),
+            Button('*', () {}),
+          ],
+        ),
+        Row(
+          children: [
+            Button(',', () {}),
+            const SizedBox(width: 5),
+            Button('0', () {}),
+            const SizedBox(width: 5),
+            Button('/', () {}),
+            const SizedBox(width: 5),
+            Button('=', () {}),
           ],
         ),
       ],

@@ -19,6 +19,7 @@ class Grid extends StatelessWidget {
             Button('+', () {}),
           ],
         ),
+        const SizedBox(height: 5),
         Row(
           children: [
             Button('4', () {}),
@@ -30,6 +31,7 @@ class Grid extends StatelessWidget {
             Button('-', () {}),
           ],
         ),
+        const SizedBox(height: 5),
         Row(
           children: [
             Button('7', () {}),
@@ -41,6 +43,7 @@ class Grid extends StatelessWidget {
             Button('*', () {}),
           ],
         ),
+        const SizedBox(height: 5),
         Row(
           children: [
             Button(',', () {}),
@@ -52,6 +55,7 @@ class Grid extends StatelessWidget {
             Button('=', () {}),
           ],
         ),
+        const SizedBox(height: 5),
       ],
     );
   }

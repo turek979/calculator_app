@@ -1,4 +1,5 @@
 import "package:calculator_app/grid.dart";
+import "package:calculator_app/result.dart";
 import "package:flutter/material.dart";
 
 class Calculator extends StatefulWidget {
@@ -21,7 +22,7 @@ class _CalculatorState extends State<Calculator> {
             Expanded(
               child: Row(
                 children: [
-                  Text('result'),
+                  Result()
                 ],
               ),
             ),
